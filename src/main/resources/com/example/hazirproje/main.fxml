@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="510.0" prefWidth="574.0" style="-fx-background-color: #060c39;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hazirproje.MainController">
+
+    <Button fx:id="btnGecilmisDers" layoutX="277.0" layoutY="71.0" onAction="#gecilmisDersTiklandi" prefHeight="163.0" prefWidth="215.0" style="-fx-background-radius: 20; -fx-background-color: #50efec;" text="Başarılı Dersler">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font></Button>
+    <Button fx:id="btnMevcutDers" layoutX="277.0" layoutY="242.0" onAction="#mevcutDersTiklandi" prefHeight="174.0" prefWidth="215.0" style="-fx-background-radius: 20; -fx-background-color: #95befc;" text="Alınan Dersler">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font></Button>
+   <Button layoutX="80.0" layoutY="70.0" mnemonicParsing="false" onAction="#ogrenciGirisTiklandi" prefHeight="343.0" prefWidth="186.0" style="-fx-background-radius: 20; -fx-background-color: #424fff;" text="Öğrenci Giriş" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Button>
+   <Text fill="WHITE" layoutX="170.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DERS TAKİP SİSTEMİ">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Text>
+   <Button fx:id="cikis" layoutX="169.0" layoutY="444.0" mnemonicParsing="false" onAction="#cikis" prefHeight="43.0" prefWidth="215.0" style="-fx-background-radius: 20; -fx-background-color: #ff8484;" text="ÇIKIŞ" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Button>
+</AnchorPane>

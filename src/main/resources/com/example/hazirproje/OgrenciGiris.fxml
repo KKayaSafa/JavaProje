@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="618.0" prefWidth="730.0" style="-fx-background-color: #060c39;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hazirproje.OgrenciGirisController">
+    <children>
+        <Label layoutX="104.0" layoutY="40.0" text="Öğrenci Bilgileri" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+        <TextField fx:id="txtAdiYerli" layoutX="87.0" layoutY="126.0" prefHeight="51.0" prefWidth="218.0" promptText="Ad" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtSoyadiYerli" layoutX="86.0" layoutY="193.0" prefHeight="51.0" prefWidth="218.0" promptText="Soyad" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtNumaraYerli" layoutX="86.0" layoutY="260.0" prefHeight="51.0" prefWidth="218.0" promptText="Numara" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtBolumYerli" layoutX="87.0" layoutY="329.0" prefHeight="51.0" prefWidth="218.0" promptText="Bölüm" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtTCYerli" layoutX="87.0" layoutY="396.0" prefHeight="51.0" prefWidth="218.0" promptText="TC Kimlik No" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <Button layoutX="103.0" layoutY="472.0" mnemonicParsing="false" onAction="#yerliOgrenciGirisi" prefHeight="51.0" prefWidth="186.0" style="-fx-background-radius: 40; -fx-background-color: #95befc;" text="Öğrenci Giriş" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+
+        <Label layoutX="397.0" layoutY="40.0" text="Yabancı Öğrenci Bilgileri" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+        <TextField fx:id="txtAdiYabanci" layoutX="425.0" layoutY="126.0" prefHeight="51.0" prefWidth="218.0" promptText="Ad" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtSoyadiYabanci" layoutX="425.0" layoutY="193.0" prefHeight="51.0" prefWidth="218.0" promptText="Soyad" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtNumaraYabanci" layoutX="425.0" layoutY="258.0" prefHeight="51.0" prefWidth="218.0" promptText="Numara" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <TextField fx:id="txtBolumYabanci" layoutX="425.0" layoutY="329.0" prefHeight="51.0" prefWidth="218.0" promptText="Bölüm" style="-fx-background-radius: 10;">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+        <Button layoutX="441.0" layoutY="472.0" mnemonicParsing="false" onAction="#yabanciOgrenciGirisi" prefHeight="51.0" prefWidth="186.0" style="-fx-background-radius: 40; -fx-background-color: #95befc;" text="Öğrenci Giriş" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+
+        <Button fx:id="btnGeri" layoutX="632.0" layoutY="552.0" mnemonicParsing="false" onAction="#anaEkranDon" prefHeight="51.0" prefWidth="84.0" style="-fx-background-color: #ff8484; -fx-background-radius: 20;" text="Geri" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
